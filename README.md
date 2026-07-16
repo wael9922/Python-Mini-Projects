@@ -1,79 +1,58 @@
-# Python Projects Portfolio
+# Python Mini Projects
 
-## About This Portfolio
+A collection of Python mini projects developed while learning different programming concepts and libraries. These projects cover desktop GUI development, game development, object-oriented programming, event-driven programming, and working with external Python packages.
 
-This portfolio showcases a collection of Python projects demonstrating my programming skills, particularly in Object-Oriented Programming (OOP), data handling, GUI development, and real-world problem solving. Each project highlights different aspects of Python, including class design, exception handling, inheritance, functional programming, and user interface development.
+Each project focuses on a specific concept or technology and demonstrates practical problem-solving using Python.
 
-## Projects Included
+---
 
-### 1. Library Management System
-**Description:** A system to manage books and library users. It includes adding, removing, searching, borrowing, and returning books, as well as registering users and tracking their borrowed books.
+## Projects
 
-* **Skills:** OOP, Exception Handling, List Comprehension, Class Design
-* [GitHub Repository](https://github.com/wael9922/PythonProjects/tree/main/Library%20System%20Project)
+| Project | Description | Technologies |
+|---------|-------------|--------------|
+| **Library Management System** | Command-line application for managing books, users, borrowing, and returning operations using object-oriented programming principles. | Python, OOP |
+| **Bank Account System** | Banking simulation featuring account management, deposits, withdrawals, transfers, inheritance, and custom exception handling. | Python, OOP |
+| **FlashCard App** | Desktop application for learning with flashcards, allowing users to review vocabulary through an interactive graphical interface. | Tkinter |
+| **Password Manager** | Desktop application for generating, storing, and retrieving passwords with JSON-based data persistence. | Tkinter, JSON |
+| **Task Manager CLI** | Command-line application for managing tasks with JSON persistence, filtering, and status tracking. | Python, OOP, JSON |
+| **URL Shortener** | Desktop application that shortens URLs using multiple providers, generates QR codes, and exports QR images. | Tkinter, pyshorteners, qrcode |
+| **Pomodoro Timer** | Productivity application implementing the Pomodoro Technique with automated work and break sessions. | Tkinter |
+| **Snake Game** | Classic Snake game featuring collision detection, score tracking, and dynamic snake growth. | Turtle Graphics, OOP |
+| **Pong Game** | Two-player Pong game with paddle controls, collision detection, and score management. | Turtle Graphics, OOP |
 
-### 2. OOP Bank Account Project
-**Description:** A banking simulation that allows creating accounts, depositing and withdrawing funds, transferring money, and handling insufficient balance with custom exceptions. Includes specialized account types like interest reward accounts and savings accounts with fees.
+---
 
-* **Skills:** OOP, Inheritance, Method Overriding, Exception Handling
-* [GitHub Repository](https://github.com/wael9922/PythonProjects/tree/main/Bank%20System%20Project)
+## Skills Demonstrated
 
-### 3. FlashCard App
-**Description:** An interactive flashcard application for learning and memorization. Users can create, review, and manage flashcards with a user-friendly interface to enhance their study experience.
+- Python programming
+- Object-Oriented Programming (OOP)
+- GUI development with Tkinter
+- Event-driven programming
+- File handling and JSON persistence
+- Collision detection
+- Game loop implementation
+- State management
+- Working with third-party libraries
+- Problem solving and application design
 
-* **Skills:** GUI Development, Data Persistence, User Interface Design, Event Handling
-* [GitHub Repository](https://github.com/wael9922/PythonProjects/tree/main/FlashCardApp)
+---
 
-### 4. Password Manager
-**Description:** A secure password management application that allows users to generate, store, and retrieve passwords for different accounts. Features include password generation, encrypted storage, and search functionality.
+## Repository Structure
 
-* **Skills:** File I/O, JSON Data Handling, Security Practices, GUI Development, Exception Handling
-* [GitHub Repository](https://github.com/wael9922/PythonProjects/tree/main/PasswordManager)
-
-### 5. Small Python Projects Collection
-**Description:** A collection of smaller Python projects demonstrating various programming concepts and techniques. These projects serve as practical examples of different Python features and best practices.
-
-* **Skills:** Python Fundamentals, Problem Solving, Algorithm Implementation, Code Organization
-* [GitHub Repository](https://github.com/wael9922/PythonProjects/tree/main/Small%20Python%20Projects%20Collection)
-
-## Key Skills Demonstrated
-
-* **Object-Oriented Programming:** classes, methods, inheritance, encapsulation, polymorphism
-* **GUI Development:** Creating interactive user interfaces with Tkinter
-* **Data Management:** File I/O, JSON handling, data persistence
-* **Security:** Password generation, secure data storage practices
-* **Exception Handling:** Robust error handling for user-friendly applications
-* **Code Design:** Writing reusable, maintainable, and extendable Python code
-* **Real-World Applications:** Applying Python to practical scenarios like library systems, banking, password management, and education tools
-* **Clean Code Practices:** Following Python best practices and maintaining organized project structure
-
-## Structure of the Portfolio
-
-```
-PythonProjects/
+```text
+Python-Mini-Projects/
 │
-├── Bank System Project/
-├── FlashCardApp/
-├── Library System Project/
-├── PasswordManager/
-├── Small Python Projects Collection/
-└── README.md                        # Main portfolio overview and navigation
+├── Task Manager CLI/
+├── URL Shortener/
+├── PomodoroApp/
+├── The Snake Game/
+└── PongGame/
 ```
 
-## How to Use
+---
 
-This portfolio is intended to give an overview of my Python projects. Each project folder contains:
+## Purpose
 
-* Detailed explanation of the project
-* Key features and functionalities
-* Source code with comments
-* Example usage and demonstrations
-* Skills demonstrated and key takeaways
+These projects were built as part of my learning journey to strengthen my Python fundamentals before moving on to larger backend and data-oriented applications. While they are smaller in scope than my main portfolio projects, each one demonstrates practical programming concepts and incremental skill development.
 
-You can explore each project to understand my approach to problem-solving and software design in Python.
-
-## Contact & Connect
-
-Feel free to explore the projects and reach out if you have any questions or collaboration opportunities!
-
-* **GitHub:** [wael9922](https://github.com/wael9922)
+For larger projects, visit my other repositories featuring Flask applications, SQLAlchemy ORM, REST APIs, and data analysis projects.
