@@ -8,9 +8,9 @@ A classic Snake game built with Python using the Turtle graphics library. Contro
 
 ### Gameplay
 
-![Gameplay](Pictures\snake1.png)
-
 ![Gameplay](Pictures/snake2.png)
+
+![Gameplay](Pictures/snake1.png)
 
 ---
 
