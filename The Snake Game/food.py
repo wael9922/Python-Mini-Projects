@@ -1,0 +1,19 @@
+import random
+from turtle import Turtle
+
+class Food(Turtle):
+	"""Create food object for the snake to eat"""
+	def __init__(self):
+		super().__init__()
+		self.shape("circle")
+		self.penup()
+		self.shapesize(stretch_len=0.5, stretch_wid=0.5)
+		self.color("blue")
+		self.speed("fastest")
+		self.refresh()
+
+	def refresh(self):
+		"""respawn the food object randomly"""
+		x = random.randint(-280, 280)
+		y = random.randint(-280, 280)
+		self.goto(x, y)
